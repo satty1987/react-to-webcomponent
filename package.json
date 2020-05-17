@@ -1,6 +1,6 @@
 {
   "name": "react-2-webcomponent",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Convert react components to native Web Components.",
   "main": "react-2-webcomponent",
   "dependencies": {},

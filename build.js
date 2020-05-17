@@ -7,17 +7,17 @@ var baseNormalize = globalJS.normalize();
 stealTools.export({
 	steal: {
 		config: __dirname + "/package.json!npm",
-		main: "react-to-webcomponent",
+		main: "react-2-webcomponent",
 	},
 	outputs: {
 		"global core": {
-			modules: ["react-to-webcomponent"],
+			modules: ["react-2-webcomponent"],
 			format: "global",
-			dest: __dirname + "/dist/react-to-webcomponent.js",
+			dest: __dirname + "/dist/react-2-webcomponent.js",
 			removeDevelopmentCode: false,
 			useNormalizedDependencies: true,
 			exports: {
-				"react-to-webcomponent": "reactToWebComponent"
+				"react-2-webcomponent": "reactToWebComponent"
 			},
 			normalize: function(depName, depLoad, curName, curLoad, loader){
 				return baseNormalize.call(this, depName, depLoad, curName, curLoad, loader, true);

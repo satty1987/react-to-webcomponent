@@ -9,9 +9,9 @@ import stacheBindings from "can-stache-bindings";
 
 stache.addBindings(stacheBindings);
 
-import reactToWebComponent from "./react-to-webcomponent";
+import reactToWebComponent from "./react-2-webcomponent";
 
-QUnit.module("react-to-webcomponent");
+QUnit.module("react-2-webcomponent");
 
 
 QUnit.test("basics with react", function(assert) {

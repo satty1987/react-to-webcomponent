@@ -1,8 +1,8 @@
-# react-to-webcomponent
+# react-2-webcomponent
 
-`react-to-webcomponent` converts [React](https://reactjs.org/) components to [custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements)! It lets you share react components as native elements that __don't__ require mounted being through React. The custom element acts as a wrapper for the underlying react component. Use these custom elements in any framework (vue, svelte, angular, ember, canjs) the same way you would use standard HTML elements.
+`react-2-webcomponent` converts [React](https://reactjs.org/) components to [custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements)! It lets you share react components as native elements that __don't__ require mounted being through React. The custom element acts as a wrapper for the underlying react component. Use these custom elements in any framework (vue, svelte, angular, ember, canjs) the same way you would use standard HTML elements.
 
-`react-to-webcomponent`:
+`react-2-webcomponent`:
 
 - Works in all modern browsers. (Edge needs a [customElements polyfill](https://github.com/webcomponents/polyfills/tree/master/packages/custom-elements)).
 - Is `1.11KB` minified and gzipped.
@@ -22,7 +22,7 @@ class Greeting extends React.Component {
 Call `reactToWebComponent` and [customElements.define](https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define) as follows:
 
 ```js
-import reactToWebComponent from "react-to-webcomponent";
+import reactToWebComponent from "react-2-webcomponent";
 
 const WebGreeting = reactToWebComponent(Greeting, React, ReactDOM);
 
@@ -89,12 +89,9 @@ document.body.firstChild.innerHTML //-> "<h1>Hello, Amazed</h1>"
 To install from npm:
 
 ```
-npm i react-to-webcomponent
+https://github.com/satty1987/react-to-webcomponent
 ```
 
-#### CodePen
-
-[Greeting example in a CodePen](https://codepen.io/justinbmeyer/pen/gOYrQax?editors=1010)
 
 ## API
 

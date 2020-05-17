@@ -1,8 +1,8 @@
 {
-  "name": "react-to-webcomponent",
+  "name": "react-2-webcomponent",
   "version": "1.4.0",
   "description": "Convert react components to native Web Components.",
-  "main": "react-to-webcomponent",
+  "main": "react-2-webcomponent",
   "dependencies": {},
   "devDependencies": {
     "@webcomponents/custom-elements": "^1.2.4",
@@ -28,17 +28,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitovi/react-to-webcomponent.git"
+    "url": "git+https://github.com/satty1987/react-to-webcomponent.git"
   },
   "keywords": [
     "React",
     "Preact",
     "WebComponents"
   ],
-  "author": "Bitovi",
+  "author": "Satnam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitovi/react-to-webcomponent/issues"
+    "url": "https://github.com/satty1987/react-to-webcomponent/issues"
   },
-  "homepage": "https://github.com/bitovi/react-to-webcomponent#readme"
+  "homepage": "https://github.com/satty1987/react-to-webcomponent#readme"
 }

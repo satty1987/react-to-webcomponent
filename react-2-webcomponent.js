@@ -60,7 +60,7 @@ export default function(ReactComponent, React, ReactDOM) {
 			if(own) {
 				return own;
 			}
-			if(ReactComponent.propTypes){
+			if(!ReactComponent.propTypes){
 				return ;
 			}
 			if(key in ReactComponent.propTypes) {
